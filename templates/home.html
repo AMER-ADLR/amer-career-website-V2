@@ -11,6 +11,7 @@
   </head>
   
 <body>
+  {% include 'nav.html' %}
   <div class ="container">
   <h1 class = "text-center mt-2 mb-4"> {{compnay_name}} Careers</h1>
 
@@ -32,9 +33,27 @@
   
   
     <div style="text-align:center;">
-  <button type="button" class="btn btn-primary btn-lg mt-4 mb-4"> Contact Us</button>
-      <p class="mt-4"> Copyrights 2023</p>
+  <button type="button" class="btn btn-primary btn-lg mt-4 mb-2"> Contact Us</button>
+     
     </div>
     </div>
 </body>
+
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <div class="container my-5">
+
+    <footer class="bg-dark text-center text-white">
+ 
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Iubian.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  </div>
+  <!-- End of .container -->
 </html>
